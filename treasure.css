@@ -1,0 +1,60 @@
+.text{
+  font-size: 35px;
+  padding: 20px;
+  border: 2px;
+  width: 500px;
+  margin: auto;
+  color:  #095332;
+  border-radius: 25px;
+  font-family: 'Seaweed Script', cursive;
+  font-weight: bold;
+}
+ol{
+  list-style-position: inside;
+  text-align: left;
+}
+body{
+  background-image: url("https://img.freepik.com/free-vector/sea-background-video-conferencing_52683-46343.jpg?size=626&ext=jpg");
+  background-position: repeat;
+  background-size: cover;
+}
+h1{
+  color: #6F1633;
+  text-align:center;
+  font-size: 100px;
+  line-height: 0px;
+  font-family: 'Rakkas', cursive;
+}
+h2{
+  color: #6F1633;
+  text-align:center;
+  font-size: 50px;
+  font-family: 'Rakkas', cursive;
+}
+table {
+  border: 10px solid black;
+  margin-left: auto;
+  margin-right:auto;
+}
+td {
+  border: 2px solid black;
+  padding: 100px;
+  background-color: navy
+}
+button{
+  color: purple;
+  background-color: white;
+  padding: 15px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+}
+button:hover {
+  color: pink;
+}
+footer {
+  text-align: center;
+  font-size: 35px
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Underwater Treasure Hunt</title>
+    <link rel="shortcut icon" type="image/jpg" href="Images/favicon.jpeg"/>
+    <link rel= "stylesheet" href="treasure.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Treasure Hunt</h1>
+   <!-- <div id="header2"> -->
+      <h2>Have fun!</h2>
+   <!-- </div> -->
+   <div class="text">
+    <ol>
+      <li>Click the boxes to reveal what's on the map</li>
+      <li>If you click on the bomb, you lose</li>
+      <li>If you click on the treasure, you win</li>
+    </ol>
+   </div>
+    <table height= 200px, width= 200px, style="font-size: 100px">
+      <tr>
+        <td id="0" onclick="treasure(0)">?</td>
+        <td id="1" onclick="treasure(1)">?</td>
+        <td id="2" onclick="treasure(2)">?</td>
+      </tr>
+      <tr>
+        <td id="3" onclick="treasure(3)">?</td>
+        <td id="4" onclick="treasure(4)">?</td>
+        <td id="5" onclick="treasure(5)">?</td>
+      </tr>
+      <tr>
+        <td id="6" onclick="treasure(6)">?</td>
+        <td id="7" onclick="treasure(7)">?</td>
+        <td id="8" onclick="treasure(8)">?</td>
+      </tr>
+    </table>
+    <!-- <button type="button" onclick="counter()">Click me</button>
+<p>Clicks: <a id="clicks">0</a></p> -->
+<br>
+<button type="button" onclick="location.reload()" name="button">Restart Game</button>
+<script type="text/javascript" src="treasurehunt.js"></script>
+  <footer>
+    <a href="http://www.savethehighseas.org/" target="_blank">Learn more about taking care of the ocean</a>
+  </footer>
+</body>
+</html>
